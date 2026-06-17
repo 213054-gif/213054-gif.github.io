@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+<a href="index.html">Home</a>
+<a href="about.html">Sobre mim</a>
+<a href="curriculum.html">Curriculo</a>
+<a href="contact.html">Contato</a>
+<a href="receitas.html">Receitas Favoritas</a>
+    </nav>
+  <div class="barra-acessibilidade">
+  <button onclick="alternarDarkMode()" title="Dark Mode">🌙</button>
+  <button onclick="aumentarFonte()" title="Aumentar fonte">A+</button>
+  <button onclick="diminuirFonte()" title="Diminuir fonte">A-</button>
+</div>
+    <header>
+        <h1>Contato</h1>
+        <p>Manda uma mensagem!</p>
+    </header>
+    <main>
+<section>
+<form id="formulario-contato">
+
+    <div class="campo">
+<label for="nome"><i class="fa-solid fa-user"></i>Nome</label>
+<input type="text" id="nome" placeholder="Seu nome completo">
+    </div>
+
+    <div class="campo">
+<label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+<input type="email" id="email" placeholder="Digite seu @email">
+    </div>
+
+    <div class="campo">
+<label for="assunto"><i class="fa-solid fa-tag"></i>Assunto</label>
+<input type="text" id="assunto" placeholder="Qual o assunto?">
+    </div>
+
+<div class="campo"> 
+<label for="mensagem"><i class="fa-solid fa-message"></i>Mensagem</label>
+<textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+</div>
+
+
+<button type="submit"><i class="fa-solid fa-paper-plane"></i>Enviar mensagem</button>
+
+</form>
+</section>
+    </main>
+    <footer>
+        <p><small>@2026 Caroline Camargo Beckstein</small></p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
